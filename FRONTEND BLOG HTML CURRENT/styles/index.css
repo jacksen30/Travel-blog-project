@@ -1,0 +1,16 @@
+@import "cards.css";
+@import "nav.css";
+@import "footer.css";
+@import "manilablog.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Monda&family=Montserrat:ital,wght@0,800;1,400;1,600&family=Pacifico&family=Russo+One&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}

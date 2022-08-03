@@ -1,0 +1,94 @@
+/* Footer and Bottom Navigation */
+
+footer {
+  position: sticky;
+  display: flex;
+  top: 100%;
+  margin-top: 0px;
+  background-color: #6B6E6D;
+  padding: 15px;
+  border-top: solid 3px gold;
+  font-family: 'Mochiy Pop One', sans-serif;
+  min-width: 336px;
+}
+
+footer ul li {
+  list-style: none;
+  font-weight: bold;
+}
+
+.footer-container{
+  display: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-left{
+}
+
+
+
+.links-title {
+  font-size: 1.5rem;
+  font-weight: ;
+}
+
+.links-title i {
+  color: red;
+  font-size: 2rem;
+}
+
+.web-link {
+  font-size: 1rem;
+}
+
+.web-link a {
+  text-decoration: none;
+}
+
+.web-link a:hover {
+  color: pink;
+}
+
+
+
+.socialtext {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-center img {
+  height: 160px;
+}
+
+.footer-right{
+}
+
+.fb-icon {
+  color: blue;
+  margin-right: 15px;
+}
+
+.fb-icon:hover {
+  transform: scale(1.2);
+}
+
+.insta-icon {
+  color: fuchsia;
+}
+
+.insta-icon:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 655px) {
+
+.footer-container {
+  width: 100%;
+}
+
+.footer-center {
+padding: 15px 0px;
+}
+}

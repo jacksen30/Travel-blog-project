@@ -1,0 +1,75 @@
+
+
+body{
+  background-color: rgb(27, 27, 27);
+  min-height: 100%;
+}
+
+h2{
+  padding-left: 10px;
+}
+
+.cardcontainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card{
+  background: white;
+  width: 300px;
+  height: 430px;
+  margin: 20px;
+  border-radius: 12px;
+}
+
+.card:hover{
+  background-color: rgb(255, 255, 102);
+  color: grey;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.1s ease;
+}
+
+.card-image{
+  background-color: yellow;
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.card p{
+  padding: 10px;
+}
+
+.card a {
+  background-color: red;
+  color: white;
+  padding: 10px 10px;
+  display: block;
+  text-align: center;
+  margin: 10px 65px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background-color: green;
+  color: black;
+  border-radius: 12px;
+}
+
+.card-1{
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fphilippinegetaway.com%2Fwp-content%2Fuploads%2F2020%2F06%2Fmanila-1703413_1920.jpg&f=1&nofb=1");
+  }
+
+.card-2{
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.letsphuket.com%2Fwp-content%2Fuploads%2Fphuket1.jpg&f=1&nofb=1")
+}
+
+.card-3{
+background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.sei.org%2Fwp-content%2Fuploads%2F2018%2F08%2Fgettyimages-694050758-1-1024x684.jpg&f=1&nofb=1")
+}

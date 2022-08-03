@@ -1,0 +1,88 @@
+/* header and footer css is already included in nav.css and footer.css*/
+/* This is just for blog main grid layout */
+
+#grid-container {
+  display: grid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100vh;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "blog-image-1 main author"
+  "blog-image-2 main author"
+  "blog-image-3 main author";
+  grid-gap: 0.6rem;
+  color: white;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.blog-image-1 {
+  grid-area: blog-image-1;
+}
+
+.blog-image-2 {
+  grid-area: blog-image-2;
+}
+
+.blog-image-3 {
+  grid-area: blog-image-3;
+}
+
+.main-blog-content {
+  grid-area: main;
+  background-color: orange;
+  padding: 20px;
+/*  overflow: hidden; */
+}
+
+.main-blog-content p {
+  padding: 20px;
+}
+
+.attractions-list {
+  display: inline;
+}
+.accomodation-img {
+  display: inline-block;
+  height: 150px;
+  width: 200px;
+}
+
+.author-details {
+  grid-area: author;
+  background-color: red;
+  padding: 20px;
+}
+
+.author-image {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  height: 200px;
+  width: 200px;
+  border-radius: 75%;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 700px) {
+  #grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20fr 2.5fr 4fr;
+    grid-template-areas:
+    "main main main"
+    "blog-image-1 blog-image-2 blog-image-3"
+    "author author author"
+
+    /*overflow: hidden;*/
+  }
+}

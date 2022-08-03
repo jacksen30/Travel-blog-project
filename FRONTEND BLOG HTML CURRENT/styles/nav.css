@@ -1,0 +1,48 @@
+/* Header and Top Navigation */
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #6B6E6D;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: solid 3px gold;
+   }
+
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 20px;
+    float: left;
+    color: #ff6900;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .top-nav ul  {
+    display: inline-flex;
+    list-style: none;
+  }
+
+  .top-nav li {
+    font-family: 'Russo One', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 15px;
+  }
+
+  .top-nav a {
+    color: gold;
+    text-decoration: none;
+    transition: 1s;
+  }
+
+  .top-nav a:hover {
+    color: red;
+  }
+
+  
