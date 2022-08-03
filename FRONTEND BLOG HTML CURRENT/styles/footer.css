@@ -18,7 +18,8 @@ footer ul li {
 }
 
 .footer-container{
-  display: row;
+  /* @Codeitkay Removed the display: row as it was no longer needed since 
+  we moved it to .grid-container */
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -85,10 +86,11 @@ footer ul li {
 @media only screen and (max-width: 655px) {
 
 .footer-container {
-  width: 100%;
+  /*@Codeitkay Removed width:100% as it was no longer needed */
+  /*width: 100%; */
 }
 
 .footer-center {
 padding: 15px 0px;
-}
+/* @Codeitkay Removed extra } bracket from end of .footer-center*/
 }

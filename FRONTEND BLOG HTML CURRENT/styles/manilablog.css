@@ -2,7 +2,13 @@
 /* This is just for blog main grid layout */
 
 #grid-container {
-  display: grid;
+  /* @Codeit_kay - Changed display to inline; which keeps the 
+  blog in a individual box section. Need to find out the way to
+  have the images at the top to display in a row format (if that is 
+  something you want).*/
+  /* This also fixes the issue of the orange blog post having text that
+  overflowed.*/
+  display: inline;
   margin-top: 10px;
   margin-bottom: 10px;
   height: 100vh;
@@ -14,7 +20,6 @@
   "blog-image-3 main author";
   grid-gap: 0.6rem;
   color: white;
-
 }
 
 img {
@@ -82,7 +87,6 @@ img {
     "main main main"
     "blog-image-1 blog-image-2 blog-image-3"
     "author author author"
-
     /*overflow: hidden;*/
   }
 }
